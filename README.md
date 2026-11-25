@@ -28,27 +28,21 @@ const arvind = {
 
 ---
 
-### 🚀 `ls ./shipped` — live in production
+### 🚀 `ls ./projects --highlight`
 
-> The source for most of these lives in **private repos**. The products are public: click and try them.
+> Most of these live in **private repos**. Where a product is public, the link takes you to it.
 
-| Project | What it does | Built with | Live |
+| Project | What it does | Built with | Status |
 | --- | --- | --- | --- |
-| **Arbelo** | One system for the whole job: leads → quotes → projects → field work → invoices → payments, for design & build businesses (US, Canada, India). Multi-tenant B2B SaaS. | Next.js 16 · tRPC + Hono · Drizzle · Neon · Better Auth · Turborepo | [arbelo.app](https://arbelo.app) |
-| **cubit.design** | Floor planning, done beautifully. Draw rooms in 2D, place doors/windows/furniture to real measurements, walk it in 3D, generate AI concept renders, export dimensioned SVG/PDF. | Konva · react-three-fiber · AI SDK · Trigger.dev | [cubit-design.vercel.app](https://cubit-design.vercel.app) |
-| **chinna.link** | Small links, clear attribution. Multi-tenant SaaS for branded short links with a public API. | Next.js · Neon · Better Auth · Upstash | [chinna.link](https://chinna.link) |
-| **Trace** | Drop the scraps of a trip (photos, notes, voice memos) and AI co-writes a shareable trip memory you edit. Invite-only beta. | Next.js · Neon Object Storage · Trigger.dev · LLMs | [trailora.co](https://trailora.co) |
-| **Program Design Lab** | The studio's home: *software that thinks with you*. | Next.js 16 · React 19 · Tailwind 4 | [programdesignlab.com](https://www.programdesignlab.com) |
-
-### 🧪 `ls ./lab` — currently compiling
-
-```diff
-+ trailora          AI-native personal travel space: plan, capture, keep the trip after the trip   → trailora-two.vercel.app
-+ firmeng           HVAC engineering copilot: knowledge-first assistant + Python sizing engine      (stealth)
-+ digital-signage   pair a cheap TV box, push a playlist, keep the screen locked on                (Android TV kiosk)
-+ teach-me          India-first live tuition marketplace: demos → small-group live classes          (MVP)
-+ arbelo-presentr   industry website templates for Arbelo tenants, deployed per tenant              (Astro)
-```
+| **Arbelo** | One system for the whole job: leads → quotes → projects → field work → invoices → payments, for design & build businesses (US, Canada, India). Multi-tenant B2B SaaS. | Next.js 16 · tRPC + Hono · Drizzle · Neon · Better Auth · Turborepo | 🟢 [arbelo.app](https://arbelo.app) |
+| **FirmEng** | HVAC engineering copilot: a knowledge-first AI assistant backed by a Python engineering kernel for load and sizing runs. | Next.js · Python · LangGraph · Neon Postgres | 🟡 stealth |
+| **Trailora** | AI-native personal travel space: plan, capture and *keep the trip after the trip*. Grew out of **Trace**, where AI co-writes a shareable trip memory from your photos, notes and voice memos. | Next.js · Drizzle · Neon · Cloudflare R2 · Trigger.dev | 🟢 [trailora.co](https://trailora.co) |
+| **cubit.design** | Floor planning, done beautifully. Draw rooms in 2D to real measurements, walk them in 3D, generate AI concept renders, export dimensioned SVG/PDF. | Konva · react-three-fiber · AI SDK · Trigger.dev | 🟢 [cubit-design.vercel.app](https://cubit-design.vercel.app) |
+| **Darpan** | *Shine light on Bharat's progress.* Search India's government open data, visualise it, share it. An autonomous engine discovers, curates and embeds datasets from data.gov.in. | Next.js · shadcn/ui · Python · Neon · Gemini embeddings | 🟡 building |
+| **chinna.link** | Small links, clear attribution. Multi-tenant SaaS for branded short links with a public API. | Next.js · Neon · Better Auth · Upstash | 🟢 [chinna.link](https://chinna.link) |
+| **Diamoon** | Premium diamond jewelry storefront (GIA/IGI certified, natural & lab-grown): custom theme, product customizer, dynamic gold pricing. | Shopify · Liquid · JS | 🟢 [caratstreet.com](https://caratstreet.com) |
+| **Unipro** | Website and client dashboard for a financial advisory firm: blog, products, rich-text CMS. | Next.js · Supabase · ProseMirror | ⏸️ paused |
+| **quant-research** | Momentum swing-trading research engine: data → indicators → market regime → ranking → entries → portfolio heat → exits, with backtests. | Python · uv · SQLite | 📂 [open source](https://github.com/arvindbasant/quant-research) |
 
 ### 🛠️ `which stack`
 
@@ -65,7 +59,7 @@ const arvind = {
 2020  feat: raisehand — location-based help during COVID-19
 2021  chore: docker, kubernetes, node.js training & mentorship
 2025  feat: Program Design Lab is born; Arbelo — multi-tenant SaaS for design & build
-2026  feat: cubit.design, chinna.link, Trace / Trailora, FirmEng   (HEAD -> main)
+2026  feat: FirmEng, Trailora, cubit.design, Darpan, chinna.link, Diamoon   (HEAD -> main)
 ```
 
 ### 📊 `htop --github`
@@ -90,6 +84,6 @@ const arvind = {
 arvind@pdl:~$ echo "Want a demo of a private project? Reach out via programdesignlab.com"
 ```
 
-<sub>Built with ☕, Bun, and an unreasonable number of Turborepo caches.</sub>
+<sub>Studio: <a href="https://www.programdesignlab.com">programdesignlab.com</a> · Built with ☕, Bun, and an unreasonable number of Turborepo caches.</sub>
 
 </div>
