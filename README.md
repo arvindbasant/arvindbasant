@@ -35,7 +35,7 @@ const arvind = {
 | Project | What it does | Built with | Status |
 | --- | --- | --- | --- |
 | **Arbelo** | One system for the whole job: leads → quotes → projects → field work → invoices → payments, for design & build businesses (US, Canada, India). Multi-tenant B2B SaaS. | Next.js 16 · tRPC + Hono · Drizzle · Neon · Better Auth · Turborepo | 🟢 [arbelo.app](https://arbelo.app) |
-| **FirmEng** | HVAC engineering copilot: a knowledge-first AI assistant backed by a Python engineering kernel for load and sizing runs. | Next.js · Python · LangGraph · Neon Postgres | 🟡 stealth |
+| **FirmEng** | HVAC engineering copilot: a knowledge-first AI assistant backed by a Python engineering kernel for load and sizing runs. | Next.js · Python · LangGraph · Neon Postgres | 🟡 WIP |
 | **Trailora** | AI-native personal travel space: plan, capture and *keep the trip after the trip*. Grew out of **Trace**, where AI co-writes a shareable trip memory from your photos, notes and voice memos. | Next.js · Drizzle · Neon · Cloudflare R2 · Trigger.dev | 🟢 [trailora.co](https://trailora.co) |
 | **cubit.design** | Floor planning, done beautifully. Draw rooms in 2D to real measurements, walk them in 3D, generate AI concept renders, export dimensioned SVG/PDF. | Konva · react-three-fiber · AI SDK · Trigger.dev | 🟢 [cubit-design.vercel.app](https://cubit-design.vercel.app) |
 | **Darpan** | *Shine light on Bharat's progress.* Search India's government open data, visualise it, share it. An autonomous engine discovers, curates and embeds datasets from data.gov.in. | Next.js · shadcn/ui · Python · Neon · Gemini embeddings | 🟡 building |
